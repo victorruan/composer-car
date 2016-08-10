@@ -1,0 +1,24 @@
+{
+    "name": "victorruan/composer-car",
+    "description": "This a demo for build composer packagist .",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "阮佳佳",
+            "email": "250069802@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion",
+            "Ford\\Focus\\": "src/Ford/Focus",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        }
+    }
+}
